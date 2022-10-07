@@ -1,0 +1,78 @@
+body {
+    background-color: #3f6184;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.navigation {
+    background-color: #778899;
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+    width: 100%;
+    gap: 20px;
+}
+
+#moviebox, #tvbox, .titlebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#movielist, #tvlist, #list, .overview {
+    background-color: #d3a39f;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.overview {
+    color: #3f6184;
+}
+
+.content {
+    background-color: #f6f7f9;
+    margin-top: 2px;
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}   
+
+h1 {
+    color: #394f6e;
+}
+
+h3 {
+    margin-bottom: -10px;
+}
+
+h1, h2, h3, p, a {
+    font-family: "Monaco", monospace;
+}
+
+a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(49, 245, 235);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+img {
+    border-radius: 20px;
+}
